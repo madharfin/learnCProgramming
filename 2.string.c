@@ -19,10 +19,15 @@ int main(){
 	printf("What is your name: \n");
 
 	/* This one will record the input from keyboard,
-	 * then store that to variable NAME */
+	 * then store that to variable NAME
+	 * "%s" used in scanf, mean the input format is string
+	 */
 	scanf("%s", &NAME);
 
-	/* Last, we print a string followed with our variable NAME */
+	/* 
+	 * Last, we print a string followed with our 
+	 * variable NAME 
+	 */
 	printf("Hello %s\n", NAME);
 
 	return 0;
